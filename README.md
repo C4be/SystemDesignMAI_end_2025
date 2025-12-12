@@ -118,7 +118,13 @@ Bi-LSTM (Bidirectional Long Short-Term Memory): Двунаправленная L
 
 **Training Pipeline** визуализирует шаги, необходимые для разработки, оценки и регистрации готовой к эксплуатации модели.
 
+***Тренировочный пайплайн в сценарии использования:***
+
 ![training pipeline](materials/imgs/training-pipeline.drawio.png)
+
+***Архитектура тренировочного пайплайна:***
+
+![training pipeline2](materials/imgs/model-train.drawio.png)
 
 ### 4. Архитектура Inference Pipeline (Serving)
 
