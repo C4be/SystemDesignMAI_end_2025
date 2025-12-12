@@ -1,0 +1,158 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/cube/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="домашнее-задание-проектирование-ml-системы--задание-17">Домашнее задание: Проектирование ML-системы — Задание 17 </h1>
+<hr>
+<h6 id="курс-проектирование-систем-машинного-обучения">Курс: Проектирование систем машинного обучения </h6>
+<h6 id="уровень-2-курс-магистратуры">Уровень: 2 курс магистратуры </h6>
+<h6 id="вариант-17">Вариант: 17 </h6>
+<h6 id="команда-">Команда: ... </h6>
+<h6 id="тема-обнаружение-языка-ненависти-в-комментариях">Тема: Обнаружение языка ненависти в комментариях </h6>
+<h6 id="задание-спроектируйте-систему-для-обнаружения-и-пометки-языка-ненависти-в-комментариях-на-новостном-сайте-сосредоточьтесь-на-обработке-текста-и-учете-контекста">Задание: Спроектируйте систему для обнаружения и пометки языка ненависти в комментариях на новостном сайте. Сосредоточьтесь на обработке текста и учете контекста </h6>
+<hr>
+<h2 id="секция-1-введение-и-постановка-задачи">Секция 1. Введение и постановка задачи </h2>
+<p>В современном цифровом медиа-пространстве комментарии являются ключевым драйвером вовлеченности (<code>User Engagement</code>), превращая пассивное чтение новостей в активную дискуссию. Однако с ростом аудитории неизбежно растет объем токсичного контента и «языка вражды» (<code>Hate Speech</code>).</p>
+<p>Ручная модерация при наших объемах трафика становится экономически нецелесообразной и технически невозможной. Пропуск токсичных комментариев несет прямые репутационные риски и угрозу оттока аудитории, в то время как чрезмерная блокировка (<code>False Positives</code>) вызывает фрустрацию лояльных пользователей.</p>
+<p><strong>Целью работы</strong> является проектирование масштабируемую <code>ML-систему</code> для автоматического обнаружения и маркировки <code>Hate Speech</code> в режиме реального времени. Ключевой <strong>особенностью</strong> системы должна стать <em><strong>способность анализировать не только отдельные ключевые слова, но и семантический контекст (сарказм, неявная агрессия, учет истории треда)</strong></em>, обеспечивая высокую точность классификации.</p>
+<h3 id="бизнес-цели-и-метрики-успеха">Бизнес-цели и метрики успеха </h3>
+<p>Внедрение системы будет направлено на достижение следующих бизнес-показателей:</p>
+<ol>
+<li>
+<p><strong>Снижение операционных расходов (OpEx) на модерацию:</strong><br>
+Цель: Автоматизировать обработку <u>95%+</u> входящего потока комментариев, оставляя для ручного разбора (<code>Human-in-the-loop</code>) только сложные граничные случаи (<code>edge cases</code>) с низкой уверенностью модели.</p>
+</li>
+<li>
+<p><strong>Удержание пользователей (Retention Rate) и вовлеченность:</strong><br>
+Цель: Снизить отток пользователей, вызванный токсичной средой, и повысить метрику «Время на сайте» (<code>Time Spent</code>), создавая безопасное пространство для дискуссий. (Чистые комментарии -&gt; больше конструктивных дискуссий).</p>
+</li>
+</ol>
+<h3 id="технические-требования-и-ограничения-slaslo">Технические требования и ограничения (SLA/SLO) </h3>
+<p>Проектируемая система относится к классу <code>High Load / Real-time ML Inference</code>. Архитектура должна строго соответствовать следующим нефункциональным требованиям:</p>
+<ul>
+<li><strong>Задержка (Latency):</strong>  Время отклика API — <strong>не более 385 мс</strong>. В эти 385 мс входит: сетевой оверхед, препроцессинг текста, инференс ML-модели и запись результата в БД.</li>
+<li><strong>Пропускная способность (Throughput):</strong> Архитектура должна выдерживать пиковую нагрузку (Peak Load) в <strong>18,225 RPS</strong> без деградации сервиса.</li>
+<li><strong>Аудитория:</strong> Система должна поддерживать <strong>3,207,228 DAU</strong> (Daily Active Users)</li>
+<li><strong>Отказоустойчивость (Availability):</strong> Система должна быть спроектирована по принципу Shared-Nothing с отсутствием единой точки отказа (SPOF) для <strong>обеспечения доступности 99.99%</strong>.</li>
+<li><strong>Контекстуальность:</strong> Алгоритм должен учитывать контекст обсуждения, чтобы минимизировать ложные срабатывания на лексике, которая может быть допустимой в определенном контексте (например, цитирование новостей), но недопустимой в качестве оскорбления.</li>
+</ul>
+<hr>
+<h2 id="секция-2-формулировка-ml-задачи-и-выбор-модели">Секция 2. Формулировка ML-задачи и выбор модели </h2>
+<h3 id="1-определение-ml-задачи">1. Определение ML-задачи </h3>
+<p>Задачу можно сформулировать как <strong>Многоклассовая Классификация (Multiclass Classification)</strong>. Это позволяет моделировать различные нюансы <em>агрессии</em> или типы <em>ненависти</em>, которые должны быть проанализированы (например, <strong>сексизм</strong>, <strong>гомофобия</strong>, <strong>ксенофобия</strong>, или классификация по <strong>степени токсичности</strong>).</p>
+<p><strong>Целевая переменная:</strong> Дискретная метка, представляющая категорию обнаруженного контента. Это будет один из классов: <strong>«Сексизм»</strong>, <strong>«Гомофобия»</strong>, <strong>«Ксенофобия»</strong>, <strong>«Лукизм»</strong> или <strong>«Другое»</strong>.</p>
+<p>Для обучения модели, способной выполнять семантический и контекстуальный анализ, необходим размеченный набор данных. Типы данных необходимые системе:</p>
+<ul>
+<li><strong>Текстовые данные:</strong> Основные входные данные — это текстовые сообщения, комментарии, посты.</li>
+<li><strong>Контекстуальные данные:</strong> Поскольку требуется учет истории обсуждения/треда (контекста), данные должны включать не только изолированные сообщения, но и последовательности сообщений или векторные представления предыдущего контекста.</li>
+<li><strong>Размеченные данные:</strong> Набор данных должен быть вручную или автоматически размечен метками, соответствующими целевой переменной (например, "токсичный/нетоксичный", или "сексизм/нейтральный" и т.п.).</li>
+</ul>
+<h3 id="2-выбор-модели">2. Выбор модели </h3>
+<p>Для решения этой задачи классификации текстовых данных могут быть применены как классические методы машинного обучения, так и современные модели глубокого обучения, особенно те, что специализируются на обработке естественного языка (NLP).</p>
+<p>Рассмотрим 2 подхода</p>
+<h4 id="a-модели-на-основе-трансформеров-transformers">A) Модели на основе трансформеров (Transformers): </h4>
+<p><strong>BERT (Bidirectional Encoder Representations from Transformers)</strong>: Модели на основе архитектуры трансформеров, такие как BERT, показывают превосходную производительность в задачах классификации текста. Они способны улавливать контекст и семантические связи между словами, что критически важно для обнаружения неявной агрессии и сарказма (ключевая особенность вашей системы).</p>
+<ul>
+<li>Перимущества: Высокая производительность и точность в задаче классификации текста, использование трансферируемого обучения (Transfer Learning), обработка нюансов языка.</li>
+<li>Недостатки: Вычислительная ресурсоемкость, может отражать и усиливать доминирующие культурные нормы и демографические, социально-экономические или политические предубеждения.</li>
+</ul>
+<h4 id="b-рекуррентные-и-сверточные-нейронные-сети">B) Рекуррентные и сверточные нейронные сети: </h4>
+<p>Bi-LSTM (Bidirectional Long Short-Term Memory): Двунаправленная LSTM, которая учитывает контекст как до, так и после текущего слова, что важно для семантического анализа.</p>
+<ul>
+<li>Преимущества: Эффективен для последовательных данных, учитывает контекст, высокая точность</li>
+<li>Недостатки: Сильная зависимость от контекста, нестабильность при изменении признаков (добавлении или уменьшении)</li>
+</ul>
+<p>Сверточные нейронные сети (CNN): могут распознавать основные свойства текста, такие как n-граммы и фразы, без сложной разработки признаков. В некоторых исследованиях CNN демонстрируют более высокую производительность для обнаружения токсичности, чем другие модели.</p>
+<ul>
+<li>Преимущества: Эффективность в извлечении признаков, способность оценивать короткие цепочки (большинство флуда и оскорблений в сети интернет), высокая производительность.</li>
+<li>Недостатки: Предназначется лучше для изображений, снижение производительности.</li>
+</ul>
+<p><strong>Выбор:</strong></p>
+<p>Модель <strong>BERT подходит лучше всех для решения данной задачи</strong>, поскольку она необходима для выполнения ключевых требований к качеству модели (семантический и контекстуальный анализ), несмотря на серьезные технические ограничения, связанные с задержкой и пропускной способностью.<br>
+Для соответствия жестким бизнес-целям и техническим требованиям, предъявляемым к системе класса High Load / Real-time ML Inference, необходимо использовать предобученную модель BERT в сочетании с передовыми методами MLOps и системного проектирования.</p>
+<hr>
+<h2 id="секция-3-проектирование-архитектуры">Секция 3. Проектирование архитектуры </h2>
+<h3 id="1-высокоуровневая-архитектура-системы">1. Высокоуровневая архитектура системы </h3>
+<p>Высокоуровневая архитектура (HLD) показывает, что система МО, готовая к эксплуатации, состоит из множества компонентов, включая стек данных, служебную инфраструктуру, пайплайн оценки и средства мониторинга.</p>
+<p>На основе описанных компонентов архитектура будет выглядеть следующим образом:</p>
+<ol>
+<li>Внешний уровень (Клиентский вход): Пользователи (Users) отправляют комментарии.</li>
+<li>Уровень маршрутизации и безопасности: Load Balancer принимает и распределяет трафик (18,225 RPS) по сервисам.</li>
+<li>Уровень инференса в реальном времени:<br>
+◦ Inference Service (Модель BERT/Kubernetes Pods): Основной компонент, выполняющий классификацию.<br>
+◦ Context/Feature Store (Распределенный кэш/Redis): Используется сервисом инференса для быстрого извлечения контекста обсуждения (истории треда).</li>
+<li>Уровень данных и асинхронной обработки:<br>
+◦ Message Broker (Kafka/RabbitMQ): Буферизует входящие комментарии для обработки и передает результаты инференса (например, метки класса и уровень уверенности) для последующей записи и модерации.<br>
+◦ Monitoring System (Prometheus/Grafana): Собирает данные о задержке, пропускной способности, нагрузке на инстансы и качестве модели,.<br>
+◦ Result Database (PostgreSQL/NoSQL): Хранит результаты классификации, включая пограничные случаи для Human-in-the-loop.</li>
+</ol>
+<p><img src="materials/imgs/HLD.png" alt="hld"></p>
+<p><img src="materials/imgs/HLD-professional.drawio.png" alt="hld-2"></p>
+<h3 id="2-архитектура-data-pipeline">2. Архитектура Data Pipeline </h3>
+<p>Опишем пайплайн, который сосредоточен в блоке <code>Offline Training (Офлайн-обучение)</code> и должен обеспечивать <strong>высококачественные</strong>, <strong>размеченные</strong> данные для обучения сложной модели BERT.</p>
+<p><em><strong>Data Pipeline в сценарии использования</strong></em></p>
+<p><img src="materials/imgs/data-pipeline.drawio.png" alt="data-pipeline"></p>
+<p><em><strong>Data Pipeline подробнее</strong></em></p>
+<p><img src="materials/imgs/data-pipeline-pro.drawio-2.png" alt="data-pipeline"></p>
+<h3 id="3-архитектура-training-pipeline">3. Архитектура Training Pipeline </h3>
+<p><strong>Training Pipeline</strong> визуализирует шаги, необходимые для разработки, оценки и регистрации готовой к эксплуатации модели.</p>
+<p><em><strong>Тренировочный пайплайн в сценарии использования:</strong></em></p>
+<p><img src="materials/imgs/training-pipeline.drawio.png" alt="training pipeline"></p>
+<p><em><strong>Архитектура тренировочного пайплайна:</strong></em></p>
+<p><img src="materials/imgs/model-train.drawio.png" alt="training pipeline2"></p>
+<h3 id="4-архитектура-inference-pipeline-serving">4. Архитектура Inference Pipeline (Serving) </h3>
+<p>TODO: добавить графики</p>
+<hr>
+<h2 id="секция-4-расчёты-и-нефункциональные-требования">Секция 4. Расчёты и нефункциональные требования </h2>
+<h3 id="1-расчёт-требований-к-хранилищу">1. Расчёт требований к хранилищу. </h3>
+<h3 id="2-расчёт-требований-к-пропускной-способности-throughput">2. Расчёт требований к пропускной способности (Throughput). </h3>
+<h3 id="3-масштабируемость-и-надёжность">3. Масштабируемость и надёжность. </h3>
+<hr>
+<h2 id="список-литературы">Список литературы </h2>
+<ol>
+<li>Аминиан, Али. System Design. Машинное обучение. Подготовка к сложному интервью / Али Аминиан, Алекс Сюй. – Санкт-Петербург : Питер, 2024. – 320 с. – (Библиотека программиста). – ISBN 978-5-4461-2130-4.</li>
+<li>Сюй, Алекс. System Design. Подготовка к сложному интервью / Алекс Сюй. – Санкт-Петербург : Питер, 2022. – 304 с. – (Библиотека программиста). – ISBN 978-5-4461-1816-8.</li>
+<li>Клеппман, Мартин. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems / Мартин Клеппман. – [О’Райли Медиа], [2017]. – [616 с.].</li>
+<li>Вон, Вернон. Implementing Domain-Driven Design / Вернон Вон. – [Аддисон-Уэсли], [2013]. – [584 с.].</li>
+<li>Захаренко, Д. В. Использование нейронных сетей глубокого обучения для классификации токсичных комментариев в социальных сетях / Д. В. Захаренко // Информатика. Экономика. Управление – Informatics. Economics. Management. – 2023. – Т. 2, № 4. – С. 0119-0133. – DOI: <a href="https://doi.org/10.47813/2782-5280-2023-2-4-0119-0133">https://doi.org/10.47813/2782-5280-2023-2-4-0119-0133</a>.</li>
+<li>Amazon Compute Service Level Agreement // Amazon Web Services. – URL: <a href="https://aws.amazon.com/compute/sla/">https://aws.amazon.com/compute/sla/</a> (дата обращения: [на момент публикации источника]).</li>
+<li>Compute Engine Service Level Agreement (SLA) // Google Cloud. – URL: <a href="https://cloud.google.com/compute/sla">https://cloud.google.com/compute/sla</a> (дата обращения: [на момент публикации источника]).</li>
+<li>SLA summary for Azure services // Microsoft Azure. – URL: <a href="https://azure.microsoft.com/en-us/support/legal/sla/summary/">https://azure.microsoft.com/en-us/support/legal/sla/summary/</a> (дата обращения: [на момент публикации источника]).</li>
+<li>MLOps (Machine Learning Operations) Методология машинного обучения // TAdviser. – [Год не указан]. – URL: [Полный URL отсутствует]. (Хроника 2025: Конвейер по управлению ИИ-моделями. Как в российских компаниях набирает популярность подход ModelOps).</li>
+<li>Kubernetes Documentation // Kubernetes. – URL: <a href="https://kubernetes.io/docs/">https://kubernetes.io/docs/</a> (дата обращения: [на момент публикации отчета]).</li>
+<li>Apache Kafka Documentation // Apache Software Foundation. – URL: <a href="https://kafka.apache.org/documentation/">https://kafka.apache.org/documentation/</a> (дата обращения: [на момент публикации отчета]).</li>
+</ol>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
