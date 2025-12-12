@@ -110,13 +110,18 @@ Bi-LSTM (Bidirectional Long Short-Term Memory): Двунаправленная L
 
 ### 2. Архитектура Data Pipeline
 
+Опишем пайплайн, который сосредоточен в блоке `Offline Training (Офлайн-обучение)` и должен обеспечивать **высококачественные**, **размеченные** данные для обучения сложной модели BERT.
+
 ![data-pipeline](materials/imgs/data-pipeline.drawio.png)
 
 ### 3. Архитектура Training Pipeline
 
+**Training Pipeline** визуализирует шаги, необходимые для разработки, оценки и регистрации готовой к эксплуатации модели.
+
+![training pipeline](materials/imgs/training-pipeline.drawio.png)
+
 ### 4. Архитектура Inference Pipeline (Serving)
 
-### 5. Архитектура хранилища данных (Data Storage)
 
 ---
 
