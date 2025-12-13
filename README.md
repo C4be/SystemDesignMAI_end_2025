@@ -134,7 +134,7 @@ Bi-LSTM (Bidirectional Long Short-Term Memory): Двунаправленная L
 
 ### 4. Архитектура Inference Pipeline (Serving)
 
-TODO: добавить графики
+![Inference](materials/imgs/image.png)
 
 ---
 
