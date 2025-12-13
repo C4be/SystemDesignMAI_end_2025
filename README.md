@@ -117,9 +117,9 @@ Bi-LSTM (Bidirectional Long Short-Term Memory): Двунаправленная L
 ![data-pipeline](materials/imgs/data-pipeline.drawio.png)
 
 ***Data Pipeline подробнее***
-![data-pipline-drift](materials/imgs/data-pipeline-drift.png)
+<!-- ![data-pipline-drift](materials/imgs/data-pipeline-drift.png) -->
 <!-- ![data-pipeline](materials/imgs/data-pipeline-pro.drawio-2.png) -->
-
+![data-pipeline](<materials/imgs/data-pipline edit.png>)
 ### 3. Архитектура Training Pipeline
 
 **Training Pipeline** визуализирует шаги, необходимые для разработки, оценки и регистрации готовой к эксплуатации модели.
